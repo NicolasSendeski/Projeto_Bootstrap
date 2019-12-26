@@ -2,40 +2,120 @@
 <html lang="pt-br">
 
 <head>
-  <title></title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 
-  <link rel="stylesheet" href="styles/style.css">
-  <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
 </head>
 
 <body>
-  <header>
-    <div class="w-100 bg-dark"  style="min-height: 80px;">
-      <div class="row">
-        <div class="col-3">
+<header>
 
-        </div>
-        <div class="col-5">
+    <div class="w-100 bg-dark" style="min-height: 80px;">
+        <div class="row">
+            <div class="col-3">
+                <a href="index.html">
+                    <img width="80"
+                         src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNj1YQaUHWvuD-GBYSJ0kmZtrQ2gYp8QzCF7lIJ0o_cg1qWzg6&s">
+                </a>
+            </div>
+            <div class="col-5">
+                <p class="text-info margem_esquerda_logo">Info do Site</p>
 
-        </div>
-        <div class="col-2">
+            </div>
+            <div class="col-2">
 
-        </div>
-        <div class="col-2">
+            </div>
+            <div class="col-2">
 
+            </div>
         </div>
-      </div>
     </div>
 
-  </header>
-  <nav>navegador</nav>
-  <div class="container">
-    peito
-  </div>
-  <footer>rodap[e </footer>
+</header>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+    <a class="navbar-brand" href="index.html">Navegaçao</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+            aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="./pages/cadastro.html">Cadastro<span class="sr-only">(página atual)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                   aria-haspopup="true" aria-expanded="false">
+                    Dropdown
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Ação</a>
+                    <a class="dropdown-item" href="#">Outra ação</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Algo mais aqui</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#">Desativado</a>
+            </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+        </form>
+    </div>
+</nav>
+
+<div class="container mt-5">
+    <div class="row">
+
+        <div class="p-2 col-4">
+            <div class="card">
+                <img class="card-img-top"
+                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNj1YQaUHWvuD-GBYSJ0kmZtrQ2gYp8QzCF7lIJ0o_cg1qWzg6&s"
+                     alt="Imagem de capa do card">
+                <div class="card-body text-center">
+                    <button type="button" class="btn btn-outline-primary">
+                      Primary
+                    </button>
+                    <p class="card-text">Coisa bonita.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="p-2 col-4">
+            <div class="card">
+                <img class="card-img-top" width="50"
+                     src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAdVBMVEX///8AAABLS0u1tbW0tLRvb2+cnJyWlpZOTk7AwMDDw8NmZmbx8fGrq6vHx8eOjo5ZWVmJiYlra2vY2NhUVFSDg4Pr6+tfX1/Pz8/09PStra10dHQpKSmLi4tGRkbS0tKgoKB8fHzg4OA4ODgiIiIPDw8/Pz/VfZlEAAAE5UlEQVR4nO2d62KiMBBG8VIVrbVeqKt2W7Xdvv8jbu222ziTAAmEGeh3/gYHjgESkgkkCQAAAAAAAAAAAAAAAAAAAAAAAAAAAAD8eO7Gq0m/SSar8V1zeutVT4bVuhG/23shvwub2/iCA0G/C8PYgr+FBXu9ZdcFIytKn6L/iHii3kq7ffIQzVDyLmqyiSW4ljb7T6x2Uaqh58wiGUp7GcQRvJPWMphGMRxLaxksohjquQxjXYgTaS2DfhTDfhOHng0HQ8KiS4Y39j1zx7YaOq8upthWQ/e+/3TDMOcGSVuqlhqO3fumj20whCEMYQhDGMIQhjCEIQxhCEMYwlCx4da972U3DHvuRAu6ZVsNncd96Iphb2KvxZvy/4Ww4X02nu/n4yxntnw7HlG4n07DQ2rWz216qhRNneFTaomXVgiozPDJlViwDg6py9BWf19MO2BYNFsbNrOsyHBeGHbebsMyeb2/2mz4XCpwQK6VFsOymdn+tajEsPga/GLfTkOfnBffO6oOQ6/gbTTMa+g5nk2/BkPfY/DLuNJg6JvkelZoOLn5ZkMP4ck7PKvEjRGfFjZjODDKjvTw/K7CC+xKHBmFqYihuSiA1WFAfBpiYpTJjCaahvToDgHxTzn/krjhAz04/5PUcpoayyrEDVnHMmSJ2Y4GMbq14oasXxm0A5qAaPRrxQ1p6uB90A62JIqRri5ueCJFWdAOMhLFuF2JG85IUc4sUg4jEsWYqRE3pIPY5Z8MTeiIjXGuqzPcB+2A3q+MJWrqDOupQ02G3b8OT6Soe/dSuh6invbQWNIsbsjGrYN2QPs0x+8icUPWaa6lX2p038UN2RBELc8W5+8ycUP2fHgKiH+iQYwyecO3nKMrCw3xYpTJG9KMnjrGacwmR96QHV4NY23mnyRvyEflq4+X7oxSBYZssK3ymPdVAAWGfH7Mb8k8X+x/9XyiwJA115XnnsyTVIMhe7zwmz/kmV3Xv9Zg+MxrodIc8K+rDTQYJo9FR+nGMo//eL2FCkM6eXIhPBeD9BhUGNoqsVQt2jIxXsk2Ogytb3cpvhateRg0T0WHIW/1L6wKotryY68m1j5QYuh4FVhe0+94qw97mZcSQz4T/Fkjrj7q2ZGecGRbajHkj4lfB2Srx6kr/eKNb6vG0NJ3++I0Nbthu+nJvallkEeNYUEO3jYbzffzUbalo2pX2FoYPYauS9GDoy2sIkM2cO2Lfbhck6G9gSuN4z1KqgwrKToElRlWOFGdw6zKDINvN0dnRG2GQen3uQ8i6gyTnat34+YtbzZHn6H/mTrKjabRMHmwPkw5mBS8Glil4fuj0WtJv9fChRlKDZMktY1sUB4HxYHUGr7fVfk46jWzUgNyig3fb6t7dxp+f74rDnBBteE7uzR7YXYvWVpSL9Fv+ME5PS4P281msz0sj+m5+AcmrTCsBAzrAYYxgWE9/DzDOG9+tyP0HuEoe7Ej9C7o5iqRfbSgqRWWTSlKvpN9MRxEZ2GZA4hj2P1vI3T/+xbd/0ZJ978z0/1vBSm6EGN970nPN7vK5VoF0Pnvrv2Ab+d1//uHllUHAoQtjGuRYmTBJBkKC4YtwPXCa9asbjYRbzIG66LZlljMorWDnOl41uhnufv92SJSXxQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA2sRfKcxT7BxMl9wAAAAASUVORK5CYII="
+                     alt="Imagem de capa do card">
+                <div class="card-body">
+                    <p class="card-text">Instagram.</p>
+                </div>
+            </div>
+        </div>
+        <div class="p-2 col-4">
+            <div class="card">
+                <img class="card-img-top"
+                     src="https://logospng.org/download/whatsapp/logo-whatsapp-preto-branco-2048.png"
+                     alt="Imagem de capa do card">
+                <div class="card-body">
+                    <p class="card-text">WhatsApp.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>Nicolas Tondo Sendeski <br> Contato:41 999999999<hr> Pedro Gusso nº12<br> Contato Direto </footer>
 </body>
 
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
